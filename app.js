@@ -57,7 +57,51 @@
 //     console.log("Learn JS")
 // }
 
-var num = [10,20,30,40,50,60,70];
-var mixNum = [10,"Talha",true,"Arsalan",undefined,30];
-console.log(mixNum[1]);
+// var num = [10,20,30,40,50,60,70];
+// var mixNum = [10,"Talha",true,"Arsalan",undefined,30];
+// console.log(mixNum[1]);
 
+// var a = true;
+
+// if(a === true){
+//     console.log("Bulb on");
+// }
+// else{
+//     console.log("Bulb off");
+// }
+
+// var a = true;
+
+// if(a){
+//     console.log("Bulb on");
+// }
+// else{
+//     console.log("Bulb off");
+// }
+
+// var a = false;
+
+// if(!a){
+//     console.log("Bulb on");
+// }
+// else{
+//     console.log("Bulb off");
+// }
+
+var a = true;
+
+if(!!a){
+    console.log("Bulb on");
+}
+else{
+    console.log("Bulb off");
+}
+
+var a = 0;
+
+if(!!a){
+    console.log("Bulb on");
+}
+else{
+    console.log("Bulb off");
+}
