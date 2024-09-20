@@ -1,107 +1,104 @@
-// var weight = +prompt("Enter your weight");
-// var time = +prompt("Enter time");
-// var gender = prompt("Enter your gender");
+var arr = [10];
+console.log(arr);
 
-// if (weight > 100 && time < 6 && gender) {
-// console.log("Come to our tryout!");
-// } else {
-//     console.log("Come to our cookout!");
-// } 
+var vegsArr = ["onion","Potato","Tomato"];
+vegsArr.unshift("Spinach");
+console.log(vegsArr);
 
 
+var arr = [10,"Talha", , 40,true,null];
+console.log(arr);
 
-// let ma = parseFloat(prompt("Enter marks for subject 1:"));
-// let marks2 = parseFloat(prompt("Enter marks for subject 2:"));
-// let marks3 = parseFloat(prompt("Enter marks for subject 3:"));
-// let totalMarks = parseFloat(prompt("Enter total marks:"));
+arr[7]= 100
 
-// let obtainedMarks = marks1 + marks2 + marks3;
-// let percentage = (obtainedMarks / totalMarks) * 100;
-
-// let grade, remarks;
-// if (percentage >= 80) {
-//   grade = "A-one";
-//   remarks = "Excellent";
-// } else if (percentage >= 70) {
-//   grade = "A";
-//   remarks = "Good";
-// } else if (percentage >= 60) {
-//   grade = "B";
-//   remarks = "You need to improve";
-// } else {
-//   grade = "Fail";
-//   remarks = "Sorry";
-// }
-
-// alert(`Total Marks: ${totalMarks}\nMarks Obtained: ${obtainedMarks}\nPercentage: ${percentage}%\nGrade: ${grade}\nRemarks: ${remarks}`);
+console.log(arr);
 
 
-// var progLang = prompt("Enter your programming language");
+var vegsArr = [];
+vegsArr.unshift("onion","Potato","Tomato","Spinach");
+console.log(vegsArr);
 
-// if(progLang === "JS") {
-//     var city = prompt("Enter your city");
 
-//     if (city === "Karachi") {
-//         var experience = +prompt("Enter your experience");
 
-//         if(experience >= 2){
-//             console.log("You are Hired!!");
-//         }
-//         else {
-//             console.log("Please experience gain");
-//         }
-//     } else {
-//         console.log(" First You are shifted to Karachi");
-//     }  
-// } else {
-//     console.log("Learn JS")
-// }
+var vegsArr = ["Potato","Tomato"];
+vegsArr.unshift("onion","Spinach");
+console.log(vegsArr);
 
-// var num = [10,20,30,40,50,60,70];
-// var mixNum = [10,"Talha",true,"Arsalan",undefined,30];
-// console.log(mixNum[1]);
 
-// var a = true;
+var vegsArr = ["onion","Potato","Tomato"];
+vegsArr.splice(0,2);
+console.log(vegsArr);
 
-// if(a === true){
-//     console.log("Bulb on");
-// }
-// else{
-//     console.log("Bulb off");
-// }
 
-// var a = true;
+// var fruits = ["apple","mango","grapes","banana","orange"];
+// fruits.splice(1,2);
+// document.write(fruits);
 
-// if(a){
-//     console.log("Bulb on");
-// }
-// else{
-//     console.log("Bulb off");
-// }
 
-// var a = false;
+// var fruits = ["apple","mango","grapes","banana","orange"];
+// fruits.splice(2,1);
+// document.write(fruits);
 
-// if(!a){
-//     console.log("Bulb on");
-// }
-// else{
-//     console.log("Bulb off");
-// }
+// var fruits = ["apple","mango","grapes","banana","orange"];
+// fruits.splice(-2,1);
+// document.write(fruits);
 
-var a = true;
+// var fruits = ["apple","mango","grapes","banana","orange"];
+// fruits.splice(-2,2,"Talha","ali");
+// document.write(fruits);
 
-if(!!a){
-    console.log("Bulb on");
-}
-else{
-    console.log("Bulb off");
-}
+var fruits = ["apple","mango","grapes","banana","orange"];
+var copy = fruits.slice(0,4);
+console.log(copy);
 
-var a = 0;
+var fruits = ["apple","mango","grapes","banana","orange"];
+fruits.pop();
+console.log(fruits);
 
-if(!!a){
-    console.log("Bulb on");
-}
-else{
-    console.log("Bulb off");
+
+var fruits = ["apple","mango","grapes","banana","orange"];
+fruits.shift();
+console.log(fruits);
+
+
+
+var fruits = ["apple","mango","grapes","banana","orange"];
+fruits.push("Pineapple","Guava");
+console.log(fruits);
+
+
+
+var fruits = ["apple","mango","grapes","banana","orange"];
+fruits.unshift("Pineapple","Guava");
+console.log(fruits);
+
+
+var fruits = ["apple","mango","grapes","banana","orange"];
+var copy = fruits.slice(-4);
+console.log(copy);
+
+
+var fruits = ["apple","mango","grapes","banana","orange"];
+var copy = fruits.slice(2,-1);
+console.log(copy);
+
+
+// for (var i = 0; i <= 10; i++) {
+//     document.write("It's one of the cleanest cities" + "<br>");
+//      }
+
+
+// for (var i = 1; i < 10; ++i) {
+//     document.write("It's one of the cleanest cities" + "<br>");
+//          }
+
+
+for (var i = 10; i >= 1; i--) {
+    console.log(i);
+                 }
+
+var input = +prompt("Enter any no");
+var range = +prompt("Enter range");
+for ( var i = 1; i <= range ; i++){
+    document.write(`${input} x ${i} = ${input*i} <br>`);
 }
